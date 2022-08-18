@@ -1,11 +1,11 @@
 # Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity
 
-This repository is the code for Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity (COLING2022).
+This repository is the code for our paper, "Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity" (COLING2022).
 
 ## How to Begin
 
 - Install required packages in ``requirements.txt``.
-- Download benchmark datasets (STSb, QQP, and MRPC) from [this](TBA) drive link.
+- Download preprocessed benchmark datasets (STSb, QQP, and MRPC) from [this](TBA) drive link.
 - Prepare PAWS-QQP dataset following [this](https://github.com/google-research-datasets/paws) repository, and locate it in ``datasets/benchmarks/paws/``.
 
 ## How to Reproduce
@@ -28,6 +28,6 @@ This repository is the code for Reweighting Strategy based on Synthetic Data Ide
 
 - Run ``scripts/3_run_other_baselines.sh`` to reprduce the results of other baseilne models in Table 6, such as GloVe, BERT, and USE.
 
-## Acknolwedge
+## Acknowledge
 
 Codes to generate synthetic dataset are derieved from [Schick et al. (2021)](https://aclanthology.org/2021.emnlp-main.555/)'s work. ([Github](https://github.com/timoschick/dino))
