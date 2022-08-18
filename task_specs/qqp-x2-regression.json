@@ -1,0 +1,22 @@
+{
+    "task_name": "qqp-regression",
+    "labels": {
+        "1": {
+            "instruction": "Task: Write two questions that mean the same thing.\nquestion 1: \"<X1>\"\nquestion 2: \"",
+            "counter_labels": []
+        },
+        "0.5": {
+            "instruction": "Task: Write two questions that are somewhat similar.\nquestion 1: \"<X1>\"\nquestion 2: \"",
+            "counter_labels": [
+                "1"
+            ]
+        },
+        "0": {
+            "instruction": "Task: Write two questions that are on completely different topics.\nquestion 1: \"<X1>\"\nquestion 2: \"",
+            "counter_labels": [
+                "1",
+                "0.5"
+            ]
+        }
+    }
+}
