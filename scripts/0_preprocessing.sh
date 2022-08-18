@@ -6,3 +6,5 @@ do
     python preprocess_data.py --dataset $dataset
 done
 
+# Run below code after you locate PAWS dataset on "datasets/benchmarks/paws/dev_and_test.json" following https://github.com/google-research-datasets/paws .
+python split_paws_dev_test.py
