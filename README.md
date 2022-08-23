@@ -1,4 +1,4 @@
-# Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity
+# Reweighting synthetic examples
 
 This repository is the code for our paper, "Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity" (COLING2022).
 
