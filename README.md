@@ -1,6 +1,6 @@
 # Reweighting synthetic examples
 
-This repository is the code for our paper, "Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity" (COLING2022).
+This repository is the code for our paper, "Reweighting Strategy based on Synthetic Data Identification for Sentence Similarity" (COLING2022) [[paper]](https://arxiv.org/pdf/2208.13376.pdf).
 
 ## How to Begin
 
@@ -12,12 +12,12 @@ This repository is the code for our paper, "Reweighting Strategy based on Synthe
 
 **1. Data preparation**
 
-- Run ``scripts/0_preprocessing.sh`` script. This will prepare sentences (C_src) to make synthetic dataset, and split  PAWS dataset into dev and test splits.
+- Run ``scripts/0_preprocessing.sh`` script. This will prepare sentences (C_src) to make synthetic dataset, and split PAWS dataset into dev and test splits.
 
 **2. Synthetic dataset generation & Machine-written example identification**
 
 - Run ``scripts/1_generation.sh`` script to generate synthetic examples and train a discriminator model that identifies them.
-- A process to create synthetic datase is same with the original DINO fraework suggested by [Schick et al. (2021)](https://aclanthology.org/2021.emnlp-main.555/).
+- A process to create synthetic dataset is same with the original DINO framework suggested by [Schick et al. (2021)](https://aclanthology.org/2021.emnlp-main.555/).
 
 **3. Training and evaluating STS models**
 
